@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.cbDrive = new System.Windows.Forms.ComboBox();
             this.lstFiles = new System.Windows.Forms.ListView();
             this.colNume = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -106,6 +107,7 @@
             this.Controls.Add(this.lstFiles);
             this.Controls.Add(this.bSearch);
             this.Controls.Add(this.txtSearch);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(808, 321);
             this.Name = "Main";
             this.Opacity = 0.95D;
